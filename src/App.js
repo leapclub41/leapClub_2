@@ -1,19 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from './pages/Home';
 
-
-import BasicTable from './components/Table';
-
-
-
-
-function App() {
-  return (
-    <>
-    <BasicTable />
-      
-    </>
-  );
+export default function App() {
+  return <Home />;
 }
-
-export default App;
