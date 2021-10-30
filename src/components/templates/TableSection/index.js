@@ -1,25 +1,25 @@
-import { DataTable } from '../../organisms';
-import { Heading } from '../../atoms';
-import Container from '@mui/material/Container';
+import { DataTable } from "../../organisms";
+import { Heading } from "../../atoms";
+import Container from "@mui/material/Container";
 
 export default function TableSection() {
   const columns = [
     {
-      id: 'picture',
+      id: "picture",
       numeric: false,
-      label: 'Product',
-      width: '3rem'
+      label: "Product",
+      width: "3rem",
     },
     {
-      id: 'title',
+      id: "title",
       numeric: false,
-      label: 'Title'
+      label: "Title",
     },
     {
-      id: 'albumId',
+      id: "albumId",
       numeric: true,
-      label: 'Ablum Id'
-    }
+      label: "Ablum Id",
+    },
   ];
   return (
     <Container>
